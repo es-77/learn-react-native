@@ -5,6 +5,7 @@ import PageButtonOnpress from './components/PageButtonOnpress';
 import PageStyle from './components/PageStyle';
 import PageInputText from './components/PageInputText';
 import InputForm from './components/InputForm';
+import PageFlateList from './components/PageFlateList';
 
 const App = () => {
   return (
@@ -18,8 +19,10 @@ const App = () => {
       <PageStyle/> */}
       {/* <Text style={{fontSize: 50}}>input text</Text>
       <PageInputText/> */}
-      <Text style={{fontSize: 50}}>form input</Text>
-      <InputForm/>
+      {/* <Text style={{fontSize: 50}}>form input</Text>
+      <InputForm/> */}
+      <Text style={{fontSize: 50}}>flate list</Text>
+      <PageFlateList/>
     </View>
   );
 };
