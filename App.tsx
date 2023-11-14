@@ -3,6 +3,8 @@ import {View, Text} from 'react-native';
 import PageViewTextButton from './components/PageViewTextButton';
 import PageButtonOnpress from './components/PageButtonOnpress';
 import PageStyle from './components/PageStyle';
+import PageInputText from './components/PageInputText';
+import InputForm from './components/InputForm';
 
 const App = () => {
   return (
@@ -12,10 +14,15 @@ const App = () => {
       <PageViewTextButton/>
 
       <PageButtonOnpress/> */}
-      <Text style={{fontSize: 50}}>style</Text>
-      <PageStyle/>
+      {/* <Text style={{fontSize: 50}}>style</Text>
+      <PageStyle/> */}
+      {/* <Text style={{fontSize: 50}}>input text</Text>
+      <PageInputText/> */}
+      <Text style={{fontSize: 50}}>form input</Text>
+      <InputForm/>
     </View>
   );
 };
 
 export default App;
+ 
