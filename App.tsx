@@ -9,6 +9,7 @@ import PageFlateList from './components/PageFlateList';
 import PageMap from './components/PageMap';
 import PageGrid from './components/PageGrid';
 import StyleWithButton from './components/StyleWithButton';
+import RadioButton from './components/RadioButton';
 
 const App = () => {
   return (
@@ -30,8 +31,10 @@ const App = () => {
       <PageMap/> */}
       {/* <Text style={{fontSize: 50}}>Grid Layout</Text>
       <PageGrid/> */}
-      <Text style={{fontSize: 50}}>Style on Button</Text>
-      <StyleWithButton/>
+      {/* <Text style={{fontSize: 50}}>Style on Button</Text>
+      <StyleWithButton/> */}
+      <Text style={{fontSize: 50}}>Style on RadioButton</Text>
+      <RadioButton/>
     </View>
   );
 };
