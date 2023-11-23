@@ -8,6 +8,7 @@ import InputForm from './components/InputForm';
 import PageFlateList from './components/PageFlateList';
 import PageMap from './components/PageMap';
 import PageGrid from './components/PageGrid';
+import StyleWithButton from './components/StyleWithButton';
 
 const App = () => {
   return (
@@ -27,8 +28,10 @@ const App = () => {
       <PageFlateList/> */}
       {/* <Text style={{fontSize: 50}}>map list</Text>
       <PageMap/> */}
-      <Text style={{fontSize: 50}}>Grid Layout</Text>
-      <PageGrid/>
+      {/* <Text style={{fontSize: 50}}>Grid Layout</Text>
+      <PageGrid/> */}
+      <Text style={{fontSize: 50}}>Style on Button</Text>
+      <StyleWithButton/>
     </View>
   );
 };

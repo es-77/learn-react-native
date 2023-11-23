@@ -23,7 +23,7 @@ const PageGrid = () => {
   return (
     <>
     <View style={{ height:"100",marginBottom:150 }}>
-    <ScrollView>
+        <ScrollView>
       <View style={{ flex:1,flexDirection:"row",flexWrap:"wrap" }}>
         <Text style={style?.gridItem} > start </Text>
         <Text style={style?.gridItem} > Grid</Text>

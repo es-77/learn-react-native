@@ -1,3 +1,8 @@
+```npm 
+npx react-native run-android
+```
+
+
 ```bash
 # using npm
 npm start
